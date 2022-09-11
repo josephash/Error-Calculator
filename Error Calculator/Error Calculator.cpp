@@ -428,4 +428,6 @@ int main() {
 		}
 	}
 	cout << endl << "Result: " << answer << " +-" << answererror << endl;
+	string placeholder;
+	cin >> placeholder;
 }
