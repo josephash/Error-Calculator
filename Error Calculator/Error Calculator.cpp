@@ -294,7 +294,7 @@ string calc(string str, int index, vector<tuple<char, float, float, bool>> &key)
 		}
 	}
 	if (sub[1] == '^') {
-		l3 = make_tuple(newkey, pow(get<1>(l1), get<1>(l2)), get<2>(l1) * get<2>(l2), true);
+		l3 = make_tuple(newkey, pow(get<1>(l1), get<1>(l2)), get<2>(l1) * get<1>(l2), true);
 	}
 	else if (sub[1] == '*') {
 		l3 = make_tuple(newkey, get<1>(l1) * get<1>(l2), get<2>(l1) + get<2>(l2), true);
